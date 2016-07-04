@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="HorizontalScrollView"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="VerticalScrollView"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_refreshLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="StickyLayout"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PullLayout"
+        android:textAllCaps="false"/>
+</LinearLayout>
